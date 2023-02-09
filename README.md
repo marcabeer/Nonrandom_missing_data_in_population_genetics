@@ -313,17 +313,19 @@ below (panels B and C), adjacent to the original PCA we conducted on the
 complete, unimputed dataset (Panel A). At a respectable missing data
 rate of 10%, the broad patterns are largely undistorted. Even the
 missing data rate of 40% captures most of the patterns found in the
-complete dataset. However, you might notice that individual PC scores,
-as well as population means, are shifted towards the graph origin;
+complete dataset. </font> <br>
+
+<font size="5"> However, you might notice that individual PC scores, as
+well as population means, are shifted towards the graph origin;
 distances between population means have accordingly decreased. This
 “collapse” towards the origin is a symptom of mean value imputation, and
-the distortion of the true patterns becomes more extreme with increasing
-missing data. More sophisticated imputation methods (such as one based
-on snmf in the R package LEA) may combat this distortion. Indeed, it
-would be fair to say that the observed distortion is a consequence of
-both missing data and imputation. In general, however, the distortion
-introduced by random missing data is rather mild because individuals of
-all populations are affected similarly. </font>
+the obscuration of the true patterns becomes more extreme with
+increasing missing data. More sophisticated imputation methods (such as
+one based on snmf in the R package LEA) may combat this distortion.
+Indeed, it would be fair to say that the observed distortion is a
+consequence of both missing data and imputation. In general, however,
+the effects of random missing data are rather mild because individuals
+of all populations are affected similarly. </font>
 
 <img src="missing_data_pca_tutorial_files/figure-gfm/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 <br>
