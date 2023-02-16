@@ -34,7 +34,7 @@ sample individuals from six populations and treat each population’s
 samples separately (i.e., when preparing sequencing libraries and/or
 carrying out sequencing itself), nonrandomness in missing data or other
 nonrandom aberrations may result. In this case, some sequencing runs may
-go poorly, leading to poor sequencing depth and missing data that is
+go poorly, leading to poor sequencing depth and missing data that are
 correlated with samples’ populations of origin; this misfortune could
 have been avoided by randomizing samples into sequencing libraries with
 respect to population of origin. Another case that is salient to
@@ -472,7 +472,7 @@ PCA remains, even when 5% of the dataset is missing nonrandomly.
 However, you might notice that the distortion of relationships between
 populations in PC space is much greater than the distortion we observed
 with random missing data at the same overall missing data rate (i.e.,
-Panel B). Indeed, even 40% random missing data leads to less distortion
+Panel B). Indeed, even 40% random missing data appears to result in less distortion
 relative to the true patterns in the full dataset. In particular,
 because the nonrandom missing data affected populations 2 and 4, they
 now appear more similar (i.e. closer together) along PC2. Note that the
@@ -493,12 +493,12 @@ PC coordinates (e.g., [Shirk et al.,
 2017](https://doi.org/10.1111/1755-0998.12684)). In the case of
 nonrandom missing data here, the genetic distances between individuals
 from populations 2 and 4 will have decreased relative to their true
-values. Clear, there is potential for these distortions to impact
+values. Clearly, there is potential for these distortions to impact
 downstream analyses. </font>
 
 <font size="5"> Note that many of the distortions observed in this
 walkthrough have been noted in published work, including [Yi & Latch,
-(2021)](https://doi.org/10.1111/1755-0998.13498)). However, the
+(2021)](https://doi.org/10.1111/1755-0998.13498). However, the
 aforementioned publication does not include a method for identifying and
 removing the loci suffering from nonrandom missing data. We will address
 this issue now. </font> <br>
