@@ -1,15 +1,18 @@
 # Nonrandom missing data in population genetics analysis (and how to correct it)
-
-================
+<br>
 
 <font size="7">
 Marc A. Beer
+</font>
+<br>
+
+<font size="7">
 02/16/2023
 </font>
 
 <br><br>
 
-<br> <font size="5"> The randomness (or lack thereof) of missing data is
+<font size="5"> The randomness (or lack thereof) of missing data is
 an important consideration for analysis. Population genetic datasets
 frequently contain missing genotypes due to variation in sequencing
 quality across genetic loci and individual samples. When these missing
@@ -500,7 +503,7 @@ aforementioned publication does not include a method for identifying and
 removing the loci suffering from nonrandom missing data. We will address
 this issue now. </font> <br>
 
-## 2. Identifying and removing loci affected by nonrandom missing data
+## 3. Identifying and removing loci affected by nonrandom missing data
 
 <br>
 
